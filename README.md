@@ -25,11 +25,17 @@ public $helpers = array('Cakegraph.Cakegraph');
 echo $this->Cakegraph->html();
 
 $og = array(
+
 	'title' => 'Website title',
+	
 	'description' => 'Website description',
+	
 	'type' => 'website',
+	
 	'url' => 'Website url',
+	
 	'image' => 'Website image'
+	
 );
 		
 echo $this->Cakegraph->opengraph($og); 
