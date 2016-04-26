@@ -13,7 +13,7 @@ CakePHP 2.5.1+
 - activate the plugin in /app/Config/bootstrap.php
 
 CakePlugin::loadAll(array(
-    'Cakegraph' => array('bootstrap' => true, 'routes' => true)
+    'Cakegraph'
 ));
 
 <h3>In the controller</h3>
